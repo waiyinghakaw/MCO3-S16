@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LandingActivity"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bgGreen"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/eco_logo"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/logoTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/eco"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textColor="@color/nextBtnGreen"/>
+
+            <TextView
+                android:id="@+id/logoTitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/loc"
+                android:textSize="40sp"
+                android:textColor="@color/nextBtnGreen" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/logoTagline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/desc4"
+            android:textSize="30sp"
+            android:textColor="@color/tagline"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/loginBtn"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:text="@string/login"
+                android:textColor="@color/nextBtnGreen"
+                app:backgroundTint="#FFFF"
+                app:cornerRadius="8dp"
+                app:strokeColor="#486537"
+                app:strokeWidth="2dp" />
+
+            <Button
+                android:id="@+id/signupBtn"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/signup"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/nextBtnGreen"
+                app:cornerRadius="8dp"
+                app:strokeColor="#486537"
+                app:strokeWidth="2dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

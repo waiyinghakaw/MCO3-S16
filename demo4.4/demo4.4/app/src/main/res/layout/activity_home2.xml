@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity2">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardBackgroundColor="@color/home_top">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/home_top"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="30dp"
+                    android:text="@string/loc"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:gravity="center_vertical"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/home_pencil"
+                    android:layout_marginStart="20dp"/>
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="58dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/search_box"
+                android:layout_marginBottom="12dp"
+                app:cardBackgroundColor="@color/white"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/home_search_b"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="8dp"/>
+
+                <EditText
+                    android:id="@+id/home_search"
+                    android:background="@drawable/search_box"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="text"
+                    android:hint="@string/search_box"
+                    android:textColorHint="@color/gray"
+                    android:textColor="@color/gray"
+                    android:layout_marginStart="40dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <FrameLayout
+        android:id="@+id/homeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/card_top"
+        app:layout_constraintBottom_toTopOf="@id/bottomNavigation">
+
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        app:itemTextAppearanceActive="@style/BottomNavTextStyle"
+        app:itemTextAppearanceInactive="@style/BottomNavTextStyle"
+        app:itemIconTint="@color/black"
+        app:menu="@menu/bottom_nav_menu"/>
+
+</RelativeLayout>

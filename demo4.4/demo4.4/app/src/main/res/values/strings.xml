@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Ecolocation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="eco">Eco</string>
+    <string name="loc">Location</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="email">Email Address</string>
+    <string name="pass">Password</string>
+    <string name="fullname">Full Name</string>
+    <string name="fpass">Forget Password?</string>
+    <string name="signGoogle">Sign in with Google</string>
+    <string name="no_account">Don\'t have an account? </string>
+    <string name="have_account">Already have an account?</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="desc1">Turn Everyday \n Shopping into a \n Sustainable Adventure!</string>
+    <string name="desc2">Join Us in Making \n Every Purchase \n Count for the Planet</string>
+    <string name="desc3">Join the Green \n Revolution – Your \n Sustainable Shopping \n Journey Starts Here!</string>
+    <string name="desc4">Discover \n Eco-Friendly \n Shopping – Sign \n In and Make a \n Positive Impact</string>
+    <string name="loc_title">Location</string>
+    <string name="loc_desc">We need access to your \n location to identify nearby \n eco-friendly shops.</string>
+    <string name="loc_btn_text">Enable Location</string>
+    <string name="shop">Shops</string>
+    <string name="map">Map</string>
+    <string name="Weather">Weather</string>
+    <string name="search_box">Search eco-friendly products</string>
+    <string name="searchText">Search..</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Weather -->
+
+
+</resources>
