@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#595959</color>
+    <color name="descGreen">#518967</color>
+    <color name="nextBtnGreen">#486537</color>
+    <color name="dotsInactive">#D9D9D9</color>
+    <color name="dotsActive">#486537</color>
+    <color name="tagline">#518967</color>
+    <color name="bgGreen">#98E299</color>
+    <color name="bgLogin_card">#FCFFFA</color>
+    <color name="login_BtnGreen">#518967</color>
+    <color name="login_hLine">#486537</color>
+    <color name="google_Btn">#F2F2F2</color>
+    <color name="google_BtnShadow">#C3C3C3</color>
+    <color name="login_BtnShadow">#3A5937</color>
+    <color name="login_text">#808080</color>
+    <color name="input_text">#595959</color>
+    <color name="home_top">#34A853</color>
+    <color name="selected_color">#1C6E3D</color>
+    <color name="unselected_color">#FF000000</color>
+    <color name="selected_icon_color">#1C6E3D</color>
+    <color name="unselected_icon_color">#FF000000</color>
+<!--    <color name="bgGreen">background: linear-gradient(0deg, #98E299, #98E299)</color>-->
+</resources>

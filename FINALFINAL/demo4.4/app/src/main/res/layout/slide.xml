@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/slideImg"
+        android:layout_width="match_parent"
+        android:layout_height="423dp"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/slider_1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sliderSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="@string/desc1"
+        android:textColor="@color/descGreen"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/slideImg" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
